@@ -1,0 +1,23 @@
+# Requirements for Dual-CLUE: Underwater Image Enhancement Model
+# Python version: 3.7+
+
+# Core libraries
+numpy>=1.19.5
+torch>=1.7.1
+torchvision>=0.8.2
+pillow>=8.1.0
+opencv-python>=4.5.1
+scipy>=1.6.0
+matplotlib>=3.3.4
+
+# Data processing
+natsort>=7.1.0
+tqdm>=4.56.0
+
+# Metrics and evaluation
+scikit-image>=0.18.1
+lpips>=0.1.4  # Learned Perceptual Image Patch Similarity
+
+# Optional utilities
+tensorboard>=2.4.1  # For visualization during training
+pyyaml>=5.4.1       # For configuration file parsing 
